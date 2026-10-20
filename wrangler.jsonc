@@ -1,0 +1,12 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "doobieduboo-chatbot",
+  "main": "src/index.js",
+  "compatibility_date": "2026-10-20",
+  "workers_dev": true,
+  "observability": { "enabled": false },
+  "durable_objects": {
+    "bindings": [{ "name": "MATCHMAKER", "class_name": "Matchmaker" }]
+  },
+  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["Matchmaker"] }]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "doobieduboo-chatbot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "build": "wrangler deploy --dry-run",
+    "test": "node --test",
+    "webhook:set": "node scripts/webhook.mjs set",
+    "webhook:info": "node scripts/webhook.mjs info",
+    "webhook:delete": "node scripts/webhook.mjs delete"
+  },
+  "devDependencies": { "wrangler": "^4.0.0" },
+  "engines": { "node": ">=22" }
+}

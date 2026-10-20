@@ -1,0 +1,3 @@
+# Contoh saja. Salin ke .dev.vars untuk pengembangan lokal.
+TELEGRAM_BOT_TOKEN="TOKEN_BOT_DARI_BOTFATHER"
+WEBHOOK_SECRET="GANTI_DENGAN_RANDOM_SECRET"
